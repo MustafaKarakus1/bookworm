@@ -1,0 +1,3 @@
+{"time":"2022-08-03 16:33:17","level":"INFO","module":"__init__","method":"__init__","line":276,"path":"C:\\Users\\Admin\\anaconda3\\lib\\site-packages\\anaconda_navigator\\widgets\\main_window\\__init__.py","message":"appusermodelid: 0"}
+{"time":"2022-08-03 16:33:22","level":"INFO","module":"__init__","method":"setup","line":500,"path":"C:\\Users\\Admin\\anaconda3\\lib\\site-packages\\anaconda_navigator\\widgets\\main_window\\__init__.py","message":"Initial setup"}
+{"time":"2022-08-03 16:33:35","level":"INFO","module":"__init__","method":"setup","line":516,"path":"C:\\Users\\Admin\\anaconda3\\lib\\site-packages\\anaconda_navigator\\widgets\\main_window\\__init__.py","message":"Normal setup"}

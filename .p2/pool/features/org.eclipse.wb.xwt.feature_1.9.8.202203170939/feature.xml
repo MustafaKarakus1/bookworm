@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wb.xwt.feature"
+      label="%featureName"
+      version="1.9.8.202203170939"
+      provider-name="%providerName"
+      plugin="org.eclipse.wb.xwt"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.wb.core.feature" version="1.9.0" match="greaterOrEqual"/>
+      <!-- $if eclipse.version >= 3.5$ -->
+      <import feature="org.eclipse.wb.core.xml.feature" version="1.9.0" match="greaterOrEqual"/>
+      <!-- $endif$ -->
+      <import feature="org.eclipse.wb.swt.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.rcp.feature" version="1.9.0" match="greaterOrEqual"/>
+   </requires>
+
+   <!-- $if eclipse.version >= 3.5$ -->
+   <plugin
+         id="org.eclipse.wb.xwt"
+         download-size="1382"
+         install-size="2049"
+         version="1.9.1.202203170939"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.rcp.databinding.xwt"
+         download-size="104"
+         install-size="227"
+         version="1.9.1.202203170939"
+         unpack="false"/>
+   <!-- $endif$ -->
+</feature>
